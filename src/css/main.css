@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 2%;
+    list-style-type: none;
+    color: #efefef;
+    cursor: pointer;
+}
+
+.active {
+    font-weight: bold;
+}
+
+#top-bar {
+    font-family: Segoe UI;
+    padding:2%;
+    margin-bottom: 5%;
+    background: linear-gradient(#444, #333);
+    border-bottom: .1em solid #222;
+    box-shadow:#222 0 1em 2em;
+}
+
+#top-bar h1 {
+    text-align: center;
+    color: white;
+}
