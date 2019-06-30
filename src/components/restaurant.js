@@ -6,8 +6,8 @@ export default class Restaurant extends Component {
         console.log(this.props.active);
         const keys = Object.keys(this.props.data).slice(1, 7);
         return (
-            <div>
-                <h3>{this.props.data.title}</h3>
+            <div className="restaurant-container">
+                <h3> - {this.props.data.title} - </h3>
                 <ul>
                     {this.props.data[keys[this.props.active]] ? this.props.data[keys[this.props.active]].map(x => <li>{x}</li>) : <li>Ruokalistaa ei kyetty noutamaan</li>}
                 </ul>

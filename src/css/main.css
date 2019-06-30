@@ -33,3 +33,24 @@ nav {
     text-align: center;
     color: white;
 }
+
+.restaurant-container {
+    background-color:#efefef;
+    margin: 2%;
+    font-family: Segoe UI Light;
+    border-radius: 1em;
+}
+
+.restaurant-container h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 2% 0;
+    background:#aaa;
+}
+
+.restaurant-container ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: .5%;
+}
